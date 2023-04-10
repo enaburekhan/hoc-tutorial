@@ -1,7 +1,11 @@
+import ClickIncrease from './components/ClickIncrease';
+import HoverIncrease from './components/HoverIncrease';
+
 function App() {
   return (
     <div className='App'>
-      <p>Welcome</p>
+      <ClickIncrease />
+      <HoverIncrease />
     </div>
   );
 }
